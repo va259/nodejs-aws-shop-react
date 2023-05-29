@@ -1,7 +1,10 @@
 # React-shop-cloudfront
 
+Task 2 links:
 CloudFront URL: https://d1beeowcby92yp.cloudfront.net/
 S3 bucket URL: https://react-redux-shop-23-cdk.s3.amazonaws.com/index.html
+
+==========
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
