@@ -17,9 +17,9 @@
     "cloudfront:setup": "cdk deploy --profile Admin",
     "cloudfront:remove": "cdk destroy --profile Admin",
     "cloudfront:build:deploy": "yarn client:build:deploy && yarn cloudfront:invalidateCache",
-    "cloudfront:build:deploy:nc": "npm run client:build:deploy:nc && npm run cloudfront:invalidateCache",
-    "cloudfront:update:build:deploy": "npm run cloudfront:setup && npm run cloudfront:build:deploy",
-    "cloudfront:update:build:deploy:nc": "npm run cloudfront:setup && npm run cloudfront:build:deploy:nc",
+    "cloudfront:build:deploy:nc": "yarn client:build:deploy:nc && yarn  cloudfront:invalidateCache",
+    "cloudfront:update:build:deploy": "yarn cloudfront:setup && yarn  cloudfront:build:deploy",
+    "cloudfront:update:build:deploy:nc": "yarn cloudfront:setup && yarn cloudfront:build:deploy:nc",
     "build": "tsc && vite build",
     "preview": "yarn run build && vite preview",
     "deploy": "yarn run build && cdk deploy"
