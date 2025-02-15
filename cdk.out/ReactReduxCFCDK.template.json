@@ -168,13 +168,13 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
      },
-     "S3Key": "0e38c73676c042efb04d698981ab7a9706991a146e59250a537916db0e9bde39.zip"
+     "S3Key": "1d3b5490cd99feddeb525a62c046988997469f2a765d0f12b43cff9d87a284fa.zip"
     },
     "Description": "/opt/awscli/aws"
    },
    "Metadata": {
     "aws:cdk:path": "ReactReduxCFCDK/DeployWebApp/AwsCliLayer/Resource",
-    "aws:asset:path": "asset.0e38c73676c042efb04d698981ab7a9706991a146e59250a537916db0e9bde39.zip",
+    "aws:asset:path": "asset.1d3b5490cd99feddeb525a62c046988997469f2a765d0f12b43cff9d87a284fa.zip",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Content"
    }
@@ -359,18 +359,13 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
      },
-     "S3Key": "9eb41a5505d37607ac419321497a4f8c21cf0ee1f9b4a6b29aa04301aea5c7fd.zip"
+     "S3Key": "f98b78092dcdd31f5e6d47489beb5f804d4835ef86a8085d0a2053cb9ae711da.zip"
     },
     "Role": {
      "Fn::GetAtt": [
       "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265",
       "Arn"
      ]
-    },
-    "Environment": {
-     "Variables": {
-      "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
-     }
     },
     "Handler": "index.handler",
     "Layers": [
@@ -387,7 +382,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "ReactReduxCFCDK/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Resource",
-    "aws:asset:path": "asset.9eb41a5505d37607ac419321497a4f8c21cf0ee1f9b4a6b29aa04301aea5c7fd",
+    "aws:asset:path": "asset.f98b78092dcdd31f5e6d47489beb5f804d4835ef86a8085d0a2053cb9ae711da",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
@@ -395,7 +390,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/21RQWrDMBB8S+/ytk5o6TVxCBQKLQn0ahR5YzaWpaKVGoLw3yvZcdJDTzM7jHak0QJeS3h6kGcuVNMVmg4Q916qTiSpjryEuA6qQy+qo7myCT6tJnW5y9d5GtaScRBK29AcnTUe4oejlsxKKWR+a9B48uPhKnu22fOvY0PsHR2CJ2uy/e88CF7WscFvbS998sOUvbkJQjKjZ1hlGISW/aGRENOad3lB94WO89o9mVajt2YbjBqDbiRZZz4Ikj3EndWY5RHvHUxsmENqnQPq1KHSBKszV5rGTDHeJTWcntqKKrC3/Q7ZBqemtTOfySCMbRBO/PhTvkD5nD7rxESFC6mgHmE34S+0Qv2eyAEAAA=="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/21QTWvDMAz9Lb27Wtdcem1TCoXBRgu7BtdRghrHHpa8UEz++3DStTvs9D540hNaQ7GB1UIPvDR1t7R0gXQWbTqlB64SF5B20XQoqmzcnc3w4S2Z29O+61nsNOOojPWxboJ3Auk9UEtuawwyH2t0QjINlzlzyJl/E3tiCXSJQt7l+F89Ki6qVOOX9bcencDcvX8YSjOjMGwzjMrq/lJrSGXj3vQNwycGzmvP5FqL4t0hOjMVPUjZPMxRke4hnbzFbE/4/MHMxt+SyuaCSg9sLMF24NLS1KmmW86iW3KtKiOL70/IPgYzr73zUTlfI1z55ft1A+sVFIsrEy1DdEI9wmnGHzP5bO2/AQAA"
    },
    "Metadata": {
     "aws:cdk:path": "ReactReduxCFCDK/CDKMetadata/Default"

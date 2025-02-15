@@ -1,6 +1,12 @@
 {
-  "version": "32.0.0",
+  "version": "20.0.0",
   "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
     "ReactReduxCFCDK.assets": {
       "type": "cdk:asset-manifest",
       "properties": {
@@ -17,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-us-east-1",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-us-east-1",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1/09fd2be5ddf451fdb9e5fc7f29a3b2940259d91a145e251c6e14da75e8ce8a60.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1/545cee9180b8117aac8f4cc2ffcb6204850fb1d75ce247bdf45372a4f22a8d33.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -107,12 +113,6 @@
         ]
       },
       "displayName": "ReactReduxCFCDK"
-    },
-    "Tree": {
-      "type": "cdk:tree",
-      "properties": {
-        "file": "tree.json"
-      }
     }
   }
 }
