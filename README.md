@@ -1,8 +1,8 @@
 # React-shop-cloudfront
 
 Task 2 links: 
-- CloudFront URL: https://d1beeowcby92yp.cloudfront.net/
-- S3 bucket URL: https://react-redux-shop-23-cdk.s3.amazonaws.com/index.html
+- CloudFront URL: [d1hsgbax0g9f4q.cloudfront.net](https://d1hsgbax0g9f4q.cloudfront.net)
+- S3 bucket URL: [react-redux-shop-23-cdk.s3.us-east-1.amazonaws.com](https://react-redux-shop-23-cdk.s3.us-east-1.amazonaws.com)
 
 ==========
 
