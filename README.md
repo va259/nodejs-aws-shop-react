@@ -1,5 +1,11 @@
 # React-shop-cloudfront
 
+Task 2 links: 
+- CloudFront URL: [d1hsgbax0g9f4q.cloudfront.net](https://d1hsgbax0g9f4q.cloudfront.net)
+- S3 bucket URL: [react-redux-shop-23-cdk.s3.us-east-1.amazonaws.com](https://react-redux-shop-23-cdk.s3.us-east-1.amazonaws.com)
+
+==========
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
